@@ -6,7 +6,7 @@ import threading
 from datetime import datetime
 import concurrent.futures
 import itertools
-from PIL import Image, ImageTk  # Добавлено для работы с изображениями
+from PIL import Image, ImageTk
 
 def extract_email(line):
     email_pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
